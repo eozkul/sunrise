@@ -13,17 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{EEC033B2-9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A27BE194-09B2-4D2B-8969-BA5FD0974F3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunrise.UnitTests", "..\tests\Sunrise.UnitTests\Sunrise.UnitTests.csproj", "{49147A41-EBF3-4864-8F7B-2E4CE56747CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sunrise.UnitTests", "..\tests\Sunrise.UnitTests\Sunrise.UnitTests.csproj", "{49147A41-EBF3-4864-8F7B-2E4CE56747CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunrise.IntegrationTests", "..\tests\Sunrise.IntegrationTests\Sunrise.IntegrationTests.csproj", "{DFB8CC18-3730-4E1A-94FC-613A71E45D41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sunrise.IntegrationTests", "..\tests\Sunrise.IntegrationTests\Sunrise.IntegrationTests.csproj", "{DFB8CC18-3730-4E1A-94FC-613A71E45D41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunrise.Api", "Sunrise.Api\Sunrise.Api.csproj", "{A8C4F454-5030-4F4E-95F3-FBDA9AF55C6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sunrise.Api", "Sunrise.Api\Sunrise.Api.csproj", "{A8C4F454-5030-4F4E-95F3-FBDA9AF55C6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunrise.Data", "..\data\Sunrise.Data\Sunrise.Data.csproj", "{22CCE404-FDBA-4A39-8A04-86EBA7639CBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sunrise.Data", "..\data\Sunrise.Data\Sunrise.Data.csproj", "{22CCE404-FDBA-4A39-8A04-86EBA7639CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunrise.Entities", "..\data\Sunrise.Entities\Sunrise.Entities.csproj", "{A35EC8E3-C6BC-463F-AD57-40F2C15A3614}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sunrise.Entities", "..\data\Sunrise.Entities\Sunrise.Entities.csproj", "{A35EC8E3-C6BC-463F-AD57-40F2C15A3614}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunrise.Data.Services", "..\services\Sunrise.Data.Services\Sunrise.Data.Services.csproj", "{579F6CC2-75F2-4877-B7F8-FF3124E4C30D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sunrise.Data.Services", "..\services\Sunrise.Data.Services\Sunrise.Data.Services.csproj", "{579F6CC2-75F2-4877-B7F8-FF3124E4C30D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{AC40746C-B006-4421-8BAA-827863947C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunrise.Common", "..\common\Sunrise.Common\Sunrise.Common.csproj", "{6C8DC48F-3E33-49E3-93CC-8293C8333B8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,10 @@ Global
 		{579F6CC2-75F2-4877-B7F8-FF3124E4C30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579F6CC2-75F2-4877-B7F8-FF3124E4C30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579F6CC2-75F2-4877-B7F8-FF3124E4C30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8DC48F-3E33-49E3-93CC-8293C8333B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8DC48F-3E33-49E3-93CC-8293C8333B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8DC48F-3E33-49E3-93CC-8293C8333B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8DC48F-3E33-49E3-93CC-8293C8333B8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +74,7 @@ Global
 		{22CCE404-FDBA-4A39-8A04-86EBA7639CBE} = {EEC033B2-9B00-4DD7-8C66-420CACC459E8}
 		{A35EC8E3-C6BC-463F-AD57-40F2C15A3614} = {EEC033B2-9B00-4DD7-8C66-420CACC459E8}
 		{579F6CC2-75F2-4877-B7F8-FF3124E4C30D} = {C6B1D28F-C6C5-46CF-B5C3-C7E0615988EE}
+		{6C8DC48F-3E33-49E3-93CC-8293C8333B8D} = {AC40746C-B006-4421-8BAA-827863947C26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9907EC1C-2968-4BE1-9D2A-EF78610CC66E}
